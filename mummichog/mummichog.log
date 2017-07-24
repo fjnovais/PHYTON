@@ -1,0 +1,49 @@
+mummichog version: 1.0.5
+pwd: C:\Users\novai\Desktop\FRANCISCO\PROGRAMAS\Mummychog\mummichog-1.0.5\mummichog
+user command: main.py -f C:\Users\novai\Desktop\AREATESTES\genespositivo.txt -o positiveresults -p 1000 -m positive
+
+
+Started @ Sat Apr 29 10:24:00 2017
+
+Loading metabolic network MFN_1.10.2...
+cpds with MW: 2016
+Using 44 top quantile of features as significant list.
+Got 44 significant features from 177 references
+
+Pathway Analysis...
+query_set_size = 36 compounds
+total_feature_num = 90 compounds
+Resampling, 1000 permutations to estimate background ...
+
+Pathway background is estimated on 119000 random pathway values
+
+Modular Analysis, using 1000 permutations ...
+
+Null distribution is estimated on 5910 random modules
+User data yield 9 network modules
+
+Got ActivityNetwork of 1 metabolites.
+
+Annotation was written to 
+1493472231.9.positiveresults\tsv\_tentative_featurematch_positiveresults (.tsv and .xlsx)
+Pathway analysis report was written to 
+1493472231.9.positiveresults\tsv\mcg_pathwayanalysis_positiveresults (.tsv and .xlsx)
+
+Modular analysis report was written to
+1493472231.9.positiveresults\tsv\mcg_modularanalysis_positiveresults (.tsv and .xlsx)
+
+Inspected network report was written to
+1493472231.9.positiveresults\tsv\InspectedNodes_ActivityNetwork.tsv
+
+Worksheet of top metabolites was written to
+1493472231.9.positiveresults\tsv\mcg_metabolite_worksheet_positiveresults (.tsv and .xlsx)
+
+Exporting top modules to 1493472231.9.positiveresults\sif/...
+    - multiple match - C06425 - 295.3011, 295.3023
+    - multiple match - C01607 - 295.3011, 295.3023
+
+HTML report was written to
+1493472231.9.positiveresults\result.html
+
+Finished @ Sat Apr 29 10:28:59 2017
+
